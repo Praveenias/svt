@@ -5,10 +5,10 @@ import { MatIconModule } from '@angular/material/icon';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [MatIconModule],
   imports: [
     CommonModule,
-    MatIconModule
-  ]
+  ],
+  exports:[MatIconModule,CommonModule]
 })
 export class MeterialModule { }
